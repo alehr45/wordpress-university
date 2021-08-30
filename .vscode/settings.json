@@ -4,6 +4,8 @@
         "get",
         "have",
         "header",
+        "links",
+        "paginate",
         "posts"
     ]
 }
