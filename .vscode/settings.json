@@ -1,11 +1,12 @@
 {
-    "cSpell.ignoreWords": [
-        "footer",
-        "get",
-        "have",
-        "header",
-        "links",
-        "paginate",
-        "posts"
-    ]
+  "cSpell.ignoreWords": [
+    "dashicons",
+    "footer",
+    "get",
+    "have",
+    "header",
+    "links",
+    "paginate",
+    "posts"
+  ]
 }
