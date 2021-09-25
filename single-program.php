@@ -18,7 +18,7 @@ while (have_posts()) {
             </p>
         </div>
         <div class="generic-content">
-            <?php the_content(); ?>
+            <?php the_field('main_body_content'); ?>
         </div>
 
         <?php
@@ -101,7 +101,7 @@ while (have_posts()) {
             foreach ($relatedCampuses as $campus) {
             ?> <li><a href='<?php
                             echo get_the_permalink($campus); ?>'><?php
-                                                    echo get_the_title($campus) ?></a></li>
+                                                                    echo get_the_title($campus) ?></a></li>
         <?php }
             echo '</ul>';
         } ?>
